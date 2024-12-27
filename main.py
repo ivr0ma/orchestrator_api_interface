@@ -3,7 +3,7 @@ import aiohttp
 import asyncio
 
 def todo_api_base_url():
-    return "http://todo-sqlite:80"
+    return "http://todo_sqlite:80"
 
 def url_shortener_api_base_url():
     return "http://short_url:80"
